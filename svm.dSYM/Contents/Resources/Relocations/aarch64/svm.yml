@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     svm
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000027D0, symSize: 0x7E8 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _epochNum, symObjAddr: 0x14E0, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _mDegree, symObjAddr: 0x35E4, symBinAddr: 0x100008018, symSize: 0x0 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _c, symObjAddr: 0x14E8, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x8C, offset: 0x8C, size: 0x8, addend: 0x0, symName: _sigma, symObjAddr: 0x14F0, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _trainData, symBinAddr: 0x100008020, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0xFB, size: 0x8, addend: 0x0, symName: _valData, symBinAddr: 0x100008030, symSize: 0x0 }
+  - { offsetInCU: 0x113, offset: 0x113, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000027D0, symSize: 0x7E8 }
+  - { offsetInCU: 0x2BB, offset: 0x2BB, size: 0x8, addend: 0x0, symName: _getData, symObjAddr: 0x8C8, symBinAddr: 0x100003098, symSize: 0x11C }
+  - { offsetInCU: 0x325, offset: 0x325, size: 0x8, addend: 0x0, symName: _quadraticKernel, symObjAddr: 0x9E4, symBinAddr: 0x1000031B4, symSize: 0x9C }
+  - { offsetInCU: 0x385, offset: 0x385, size: 0x8, addend: 0x0, symName: _polynomialKernel, symObjAddr: 0xA80, symBinAddr: 0x100003250, symSize: 0xAC }
+  - { offsetInCU: 0x3E5, offset: 0x3E5, size: 0x8, addend: 0x0, symName: _rbfKernel, symObjAddr: 0xB2C, symBinAddr: 0x1000032FC, symSize: 0xC0 }
+  - { offsetInCU: 0x445, offset: 0x445, size: 0x8, addend: 0x0, symName: _linearKernel, symObjAddr: 0xBEC, symBinAddr: 0x1000033BC, symSize: 0x7C }
+  - { offsetInCU: 0x4A5, offset: 0x4A5, size: 0x8, addend: 0x0, symName: _computeObj, symObjAddr: 0xC68, symBinAddr: 0x100003438, symSize: 0x1A8 }
+  - { offsetInCU: 0x559, offset: 0x559, size: 0x8, addend: 0x0, symName: _updateAlpha, symObjAddr: 0xE10, symBinAddr: 0x1000035E0, symSize: 0x254 }
+  - { offsetInCU: 0x63B, offset: 0x63B, size: 0x8, addend: 0x0, symName: _updateBeta, symObjAddr: 0x1064, symBinAddr: 0x100003834, symSize: 0xC4 }
+  - { offsetInCU: 0x6BB, offset: 0x6BB, size: 0x8, addend: 0x0, symName: _getBias, symObjAddr: 0x1128, symBinAddr: 0x1000038F8, symSize: 0x154 }
+  - { offsetInCU: 0x76C, offset: 0x76C, size: 0x8, addend: 0x0, symName: _getAccuaray, symObjAddr: 0x127C, symBinAddr: 0x100003A4C, symSize: 0x148 }
+  - { offsetInCU: 0x82D, offset: 0x82D, size: 0x8, addend: 0x0, symName: _generateGuassRandom, symObjAddr: 0x13C4, symBinAddr: 0x100003B94, symSize: 0x110 }
+...
